@@ -157,5 +157,5 @@ for i in range(timerDuration):
     if mins==60:
         hours+=1
         mins=0
-print(f'{str(hours)}:{str(mins)}:{str(sec)}')
-time.sleep(1)
+    print(f'{str(hours)}:{str(mins)}:{str(sec)}')
+    time.sleep(1)
